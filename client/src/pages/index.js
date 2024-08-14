@@ -1,9 +1,12 @@
+import Home from '@/components/home/Home'
 import React from 'react'
 
-const index = () => {
+const App = () => {
   return (
-    <div>index</div>
+    <>
+    <Home/>
+    </>
   )
 }
 
-export default index
+export default App
